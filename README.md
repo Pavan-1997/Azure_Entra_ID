@@ -9,11 +9,11 @@ Azure Active Directory (AAD)" earlier called and now as  "Azure Entra ID." Azure
 
 2. Create a Storage Account 
 
-Resource group - Selected the above created one
-
-Storage account name - managedsapavan
-
-Click on Review + create
+    Resource group - Selected the above created one
+    
+    Storage account name - managedsapavan
+    
+    Click on Review + create
 
 
 3. Now in the created Storage account -> On the left click on Containers -> Click on + Create -> Name - test
