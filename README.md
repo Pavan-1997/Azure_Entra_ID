@@ -23,9 +23,9 @@ Azure Active Directory (AAD)" earlier called and now as  "Azure Entra ID." Azure
 
 4. Now go to Virtual machine -> Click on + Create -> Azure virtual machine
 
-Virtual machine name - manageddemovm
-
-Click on Review + create
+    Virtual machine name - manageddemovm
+    
+    Click on Review + create
 
 
 4. Now in the created Virtual machine -> On the left click on Identity -> Toggle Status to On and click on Save
