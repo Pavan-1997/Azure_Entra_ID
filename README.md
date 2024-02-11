@@ -57,4 +57,4 @@ blob_name=""
 
 ```
 curl "https://$storage_account_name.blob.core.windows.net/$container_name/$blob_name" -H "x-ms-version: 2017-11-09" -H "Authorization: Bearer $access_token"
-``````
+```
