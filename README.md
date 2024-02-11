@@ -33,8 +33,12 @@ Azure Active Directory (AAD)" earlier called and now as  "Azure Entra ID." Azure
 
 5. Now go back to the Storage account created -> Click on Access Control (IAM) ->. Click on Add role assignment -> Search for Storage Blob Data Owner -> Click on Next -> Assign access to - Managed identity -> Click on + Select members -> Managed identity - Virtual machine (1) -> Select the created Virtual machine -> Click on Select -> Click on Review + assign 
 
+Verify as below
 
-6. Now connect to the VM from the terminal  and Fetching the deatils of the Managed Identity
+![ROLE-ASSIGNMENT-IDENTITY-VM](https://github.com/Pavan-1997/Azure_Entra_ID/assets/32020205/ef3ddfc1-247b-4093-92d4-0d3734d8b72a)
+
+
+6. Now connect to the VM from the terminal  and Fetching the details of the Managed Identity
    
 ```
 sudo apt update
