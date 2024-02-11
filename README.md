@@ -46,6 +46,6 @@ Azure Active Directory (AAD)" earlier called and now as  "Azure Entra ID." Azure
     Fetch the access token -access_token=$(curl 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https%3A%2F%2Fstorage.azure.com%2F' -H Metadata:true | jq -r '.access_token')
     
 
-Access the blob from Virtual Machine
+8. Access the blob from Virtual Machine
 
 curl "https://$managedsapavan.blob.core.windows.net/test/$index.html" -H "x-ms-version: 2017-11-09" -H "Authorization: Bearer $access_token"
