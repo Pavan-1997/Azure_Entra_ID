@@ -18,7 +18,7 @@ Azure Active Directory (AAD)" earlier called and now as  "Azure Entra ID." Azure
 
 3. Now in the created Storage account -> On the left click on Containers -> Click on + Create -> Name - test
 
-In the above test container -> Upload any HTML file 
+    In the above test container -> Upload any HTML file 
 
 
 4. Now go to Virtual machine -> Click on + Create -> Azure virtual machine
