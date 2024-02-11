@@ -52,6 +52,8 @@ sudo apt install jq
 access_token=$(curl 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https%3A%2F%2Fstorage.azure.com%2F' -H Metadata:true | jq -r '.access_token')
 ```    
 
+![ACCESS-TOKEN](https://github.com/Pavan-1997/Azure_Entra_ID/assets/32020205/e36b2472-a62e-4c10-a019-15579f6f9cb6)
+
 
 8. Access the blob from Virtual Machine
 
@@ -65,3 +67,5 @@ blob_name=""
 ```
 curl "https://$storage_account_name.blob.core.windows.net/$container_name/$blob_name" -H "x-ms-version: 2017-11-09" -H "Authorization: Bearer $access_token"
 ```
+
+![INDEX](https://github.com/Pavan-1997/Azure_Entra_ID/assets/32020205/dd35b9d8-16f9-47a3-8ec9-bc01522ea199)
